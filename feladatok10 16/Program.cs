@@ -34,7 +34,13 @@
 
         static void feladat14()
         {
-            int N 
+            Console.WriteLine("Kérek egy számot:");
+            int N = Convert.ToInt32(Console.ReadLine());
+            int[] tomb = new int[N];
+            Console.WriteLine("Kérem az intervallum legkisebb számát:");
+            int legkisebb = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Kérem az intervallum legnagyobb számát:");
+            int legnagyobb = Convert.ToInt32(Console.ReadLine());
         }
         static void Main(string[] args)
         {
